@@ -1,13 +1,68 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta property="og:title" content="Odin Recipe - Yellow's Project" />
+    <meta property="og:description" content="Training Webiste." />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co.com/DDQ1vq2v/014a1dd5-a38e-426d-bb8e-6ce949d57bc3.jpg"
+    />
+    <meta property="og:type" content="website" />
+
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no   "
     />
-    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="./global.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.theodinproject.com/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://www.theodinproject.com/favicon-16x16.png"
+      sizes="16x16"
+    />
     <title>odin recipes</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="card">
+        <h1>Odin Recipes</h1>
+        <ul>
+          <li>
+            <a href="recipes/lasagna.html" class="avaliable">Lasagna recipe</a>
+          </li>
+          <li>
+            <a href="recipes/yourrecipe.html" class="wip"
+              >Work In Progress 🛠</a
+            >
+          </li>
+          <li>
+            <a href="recipes/yourrecipe.html" class="wip"
+              >Work In Progress 🛠</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>
+        &copy; 2026-now <span>yellow.env</span>
+        <span class="divider">|</span>
+        yellow-hoshino
+      </p>
+    </footer>
+
+    <script>
+      document
+        .querySelector('meta[property="og:url"]')
+        .setAttribute("content", window.location.href);
+    </script>
+  </body>
 </html>
